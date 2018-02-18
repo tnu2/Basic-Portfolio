@@ -1,0 +1,35 @@
+/*Body
+> Grey Background 
+*/
+
+/*header
+>area figure out 
+
+*/
+
+.aside-container{
+  display:flex;
+  flex-direction: column
+
+}
+
+.aside-body{
+  display:flex;
+  flex-direction: row;
+}
+
+.contact-container{
+  display:flex;
+  flex-direction: column
+}
+
+.contact-body{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.body-container{
+  display:flex;
+  flex-direction:row;
+}
