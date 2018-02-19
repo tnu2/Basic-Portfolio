@@ -13,10 +13,15 @@
 
 }
 
+
 .aside-body{
   display:flex;
   flex-direction: row;
+  width: 270px;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
+
 
 .contact-container{
   display:flex;
@@ -26,10 +31,90 @@
 .contact-body{
   display:flex;
   flex-direction:column;
+  width: 650px;
+}
 
+
+.contact-header{
+  font-family: 'Georgia','Times New Roman', Times, serif;
+  color: #4aaaa5;
+}
+
+.aside-header{
+  font-family: 'Georgia','Times New Roman', Times, serif;
+  color: #4aaaa5;
+  display: flex;
+  justify-content: center;
 }
 
 .body-container{
   display:flex;
   flex-direction:row;
+  width: 960px;
+  justify-content: space-between;
+  background-color:#ffffff;
+  border-color:#dddddd;
+}
+
+.header{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 960px;
+  align-items: center;
+  background-color:#ffffff;
+  border-color:#cccccc;
+  font-family: 'Georgia','Times New Roman', Times, serif;
+}
+.header-border{
+  background-color:  #4aaaa5;
+  color: #ffffff;
+  padding: 5px 5px;
+}
+
+.header-nav{
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display:block;
+  color:#777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color:#4aaaa5;
+}
+
+.head1{
+  display:flex;
+  justify-content:center;
+}
+
+.body1{
+  display:flex;
+  justify-content: center;
+}
+
+
+.foot1{
+  display:flex;
+  justify-content:center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#666666;
+  color:#cccccc;
 }
